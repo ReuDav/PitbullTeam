@@ -5,7 +5,7 @@
 <div class="relative max-h-screen">
     <div class="absolute inset-0 h-full backdrop-blur-md z-10">
         <div class="relative w-full h-full">
-            <div class="absolute md:inset-20 inset-4 flex flex-col justify-between text-center bg-black/50 rounded-xl z-30 md:top-40 top-40 PITBULL-FONT xl:p-20 md:p-10 p-5">
+            <div class="absolute md:inset-20 inset-4 flex flex-col justify-between text-center bg-black/50 rounded-xl z-30 md:top-40 top-32 PITBULL-FONT xl:p-20 md:p-10 p-5">
                 <h1 class="text-yellow text-5xl text-center">PITBULL TEAM SOROKSÁR SE.</h1>
                 <div class="w-full text-center">
                     <q class="text-slate-100 text-3xl">Ahol az igazi bajnokok és férfiak születnek</q>

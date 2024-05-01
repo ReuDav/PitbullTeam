@@ -12,8 +12,8 @@
 </script>
 
 <section class="flex xl:flex-row xl:gap-4 mx-4 flex-col PITBULL-FONT">
-    <div class="xl:w-1/3 mt-8 bg-yellow text-slate-800 rounded-xl">
-        <div class="grid grid-rows-[60px_4fr_1fr] h-full">
+    <div class="xl:w-1/3 mt-8 bg-yellow text-slate-800 rounded-xl" id="Béla">
+        <div class="grid grid-rows-[60px_3fr_1fr] h-full">
             <div class="text-center p-4">
                 <h3 class="text-2xl leading-1">Sándor Béla</h3>
             </div>
@@ -24,7 +24,7 @@
                     adja át a növendékeknek,versenyre készülőknek.
                     WFC K-1,és WPK Low-kick öv birtokosa,és sok sok hazai és nemzetközi
                     mérkőzés van a háta mögött.
-                </p>
+                </p><button class="block mx-auto rounded-xl bg-slate-800 text-slate-100 p-4 md:max-w-80 w-full"><a href="tel:06306527909">06 30 652-7909</a></button>
                 <small class="text-base leading-[24px] text-center">
                     Edzések .H.-P.18:00-19:30-ig
                 </small>
@@ -32,7 +32,7 @@
             </div>
         </div>
     </div>
-    <div class="xl:w-1/3 mt-4 h-full">
+    <div class="xl:w-1/3 mt-4 h-full" id="Kami">
         <div class="bg-black/90 text-slate-100 rounded-xl">
             <div class="  text-center p-4 ">
                 <h3 class="text-2xl leading-1">Kovács Kálmán</h3>
@@ -56,22 +56,22 @@
                 <p>MMA-ban,K.-3 -ban és Kempoban versenyzett ,sok sok mérkőzésen van túl idehaza és külföldön
                     egyaránt,többek között bírtokosa az Ózdon megrendezett Spartan gála,Profi MMA ban megszerzet bajnoki
                     övnek.
-                    Edzési főleg erőnléti,és küzdelmi jellegűek.</p>
+                    Edzési főleg erőnléti,és küzdelmi jellegűek.</p><button class="block mx-auto rounded-xl bg-yellow text-slate-800 p-4 md:max-w-80 w-full"><a href="tel:0670881852">06 70 881-7852</a></button>
                 <small class="text-base leading-[24px] text-center">Edzések déli ,kora délutáni időpontokban ,csoportosan előre egyeztetett időpontokban</small>
             </div>
         </div>
     </div>
-    <div class="xl:w-1/3 mt-8 bg-yellow text-slate-800 rounded-xl">
-        <div class="grid grid-rows-[60px_4fr_1fr] h-full">
+    <div class="xl:w-1/3 mt-8 bg-yellow text-slate-800 rounded-xl" id="Sosi">
+        <div class="grid grid-rows-[60px_3fr_1fr] h-full">
             <div class="text-center p-4">
                 <h3 class="text-2xl leading-1">Soós István</h3>
             </div>
-            <img src={Sosi} alt="Sosi" class="w-full object-cover">
+            <img src={Sosi} alt="Sosi" class="w-full h-full object-cover">
             <div class="POPPINS-FONT font-semibold p-2 flex flex-col justify-between gap-4">
                 <p class="text-lg leading-[24px]">Az Ő világa a birkózó szőnyeg,régóta a "szakmában"van.
                     Sosi többszörös Országos és Magyar bajnok több súlycsoportban
                     és minden korosztályban,és veteránként is elnyerte a magyar bajnoki címet.
-                    Edzésein a földharc és birkó elemeit vezeti át az MMA-ra.</p>
+                    Edzésein a földharc és birkó elemeit vezeti át az MMA-ra.</p><button class="block mx-auto rounded-xl bg-slate-800 text-slate-100 p-4 md:max-w-80 w-full"><a href="tel:06704287111">06 70 428-7111</a></button>
                 <small class="text-base leading-[24px] text-center">Edzései minden csütörtökön 18:00-19:30</small>
             </div>
         </div>
