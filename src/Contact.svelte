@@ -1,7 +1,7 @@
 <section class="md:px-16 sm:px-8 px-4 py-8 bg-slate-800">
     <div class="grid lg:grid-cols-2">
         <div class="text-slate-100 flex flex-col justify-evenly py-8">
-            <h3 class="text-4xl PITBULL-FONT text-center">Kapcsolat</h3>
+            <h3 class="text-4xl PITBULL-FONT text-center py-4">Kapcsolat</h3>
             <div>
                 <ul>
                     <li>Email: <a class="underline" href="mailto:sandorbela.bs53@gmail.com">sandorbela.bs53@gmail.com</a>
@@ -13,7 +13,7 @@
                 </ul>
             </div>
 
-            <h4 class="text-3xl PITBULL-FONT text-center">Megközelítés</h4>
+            <h4 class="text-3xl PITBULL-FONT text-center py-4">Megközelítés</h4>
             <div>
                 <p>A "Sósfürdő" megállótól 15 perc sétára</p>
                 <div class="flex flex-wrap gap-4">
