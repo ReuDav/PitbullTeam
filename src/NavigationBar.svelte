@@ -45,9 +45,9 @@
                         </div>
                     </div>
                 </li>
-                <li class="flex items-center max-h-10"><a class="px-2 md:py-2 w-full block TEXT-OUTLINE" href="#Versenyek">Versenyek</a></li>
-                <li class="flex items-center max-h-10"><a class="px-2 md:py-2 w-full block TEXT-OUTLINE" href="#Galeria">Galéria</a></li>
-                <li class="flex items-center max-h-10"><a class="px-2 md:py-2 w-full block TEXT-OUTLINE" href="#Kapcsolat">Kapcsolat</a></li>
+                <li class="flex items-center max-h-10"><a on:click={() => opened = false} class="px-2 md:py-2 w-full block TEXT-OUTLINE" href="#Galeria">Galéria</a></li>
+                <li class="flex items-center max-h-10"><a on:click={() => opened = false} class="px-2 md:py-2 w-full block TEXT-OUTLINE" href="#Kapcsolat">Kapcsolat</a></li>
+                <li class="flex items-center max-h-10"><a on:click={() => opened = false} class="px-2 md:py-2 w-full block TEXT-OUTLINE" href="#Gyik">GY.I.K</a></li>
             </ul>
         </div>
     </div>

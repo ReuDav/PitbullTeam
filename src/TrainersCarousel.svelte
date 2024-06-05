@@ -11,14 +11,14 @@
     import Sosi from "./assets/Sosi/Sosi.jpg"
 </script>
 
-<section class="flex xl:flex-row xl:gap-4 mx-4 flex-col PITBULL-FONT">
-    <div class="xl:w-1/3 mt-8 bg-yellow text-slate-800 rounded-xl" id="Béla">
-        <div class="grid grid-rows-[60px_3fr_1fr] h-full">
+<section class="flex lg:flex-row lg:gap-6 mx-4 flex-col PITBULL-FONT">
+    <div class="lg:w-1/3 mt-8 bg-yellow text-slate-800 rounded-xl" id="Béla">
+        <div class="grid grid-rows-[60px_2fr_auto] h-full">
             <div class="text-center p-4">
                 <h3 class="text-2xl leading-1">Sándor Béla</h3>
             </div>
-            <img src={Bela} alt="Béla" class="w-full h-full object-cover">
-            <div class="POPPINS-FONT font-semibold p-2 flex flex-col justify-between gap-4">
+            <img src={Bela} alt="Béla" class="h-full object-cover">
+            <div class="font-sans font-semibold p-2 flex flex-col gap-6">
                 <p class="text-lg leading-[24px]">
                     Kick-Box,ökölvívás,Thai-box,MMA-ban szerzett tapasztalatait
                     adja át a növendékeknek,versenyre készülőknek.
@@ -32,7 +32,7 @@
             </div>
         </div>
     </div>
-    <div class="xl:w-1/3 mt-4 h-full" id="Kami">
+    <div class="lg:w-1/3 mt-4 h-full" id="Kami">
         <div class="bg-black/90 text-slate-100 rounded-xl">
             <div class="  text-center p-4 ">
                 <h3 class="text-2xl leading-1">Kovács Kálmán</h3>
@@ -45,14 +45,14 @@
                         initialPageIndex={0}
                         infinite={true}
                 >
-                    <img src={Kami1} alt="Kami1" class="w-full h-full object-cover">
-                    <img src={Kami2} alt="Kami2" class="w-full h-full object-cover">
-                    <img src={Kami3} alt="Kami3" class="w-full h-full object-cover">
-                    <img src={Kami4} alt="Kami4" class="w-full h-full object-cover">
-                    <img src={Kami5} alt="Kami5" class="w-full h-full object-cover">
+                    <img src={Kami1} alt="Kami1" class="md:max-h-[720px] object-cover">
+                    <img src={Kami2} alt="Kami2" class="md:max-h-[720px] object-cover">
+                    <img src={Kami3} alt="Kami3" class="md:max-h-[720px] object-cover">
+                    <img src={Kami4} alt="Kami4" class="md:max-h-[720px] object-cover">
+                    <img src={Kami5} alt="Kami5" class="md:max-h-[720px] object-cover">
                 </Carousel>
             </div>
-            <div class="POPPINS-FONT font-semibold p-2 flex flex-col justify-between gap-4">
+            <div class="font-sans font-semibold p-2 flex flex-col gap-6">
                 <p>MMA-ban,K.-3 -ban és Kempoban versenyzett ,sok sok mérkőzésen van túl idehaza és külföldön
                     egyaránt,többek között bírtokosa az Ózdon megrendezett Spartan gála,Profi MMA ban megszerzet bajnoki
                     övnek.
@@ -61,13 +61,13 @@
             </div>
         </div>
     </div>
-    <div class="xl:w-1/3 mt-8 bg-yellow text-slate-800 rounded-xl" id="Sosi">
-        <div class="grid grid-rows-[60px_3fr_1fr] h-full">
+    <div class="lg:w-1/3 mt-8 bg-yellow text-slate-800 rounded-xl" id="Sosi">
+        <div class="grid grid-rows-[60px_2fr_auto] h-full">
             <div class="text-center p-4">
                 <h3 class="text-2xl leading-1">Soós István</h3>
             </div>
-            <img src={Sosi} alt="Sosi" class="w-full h-full object-cover">
-            <div class="POPPINS-FONT font-semibold p-2 flex flex-col justify-between gap-4">
+            <img src={Sosi} alt="Sosi" class="h-full object-cover">
+            <div class="font-sans font-semibold p-2 flex flex-col gap-6">
                 <p class="text-lg leading-[24px]">Az Ő világa a birkózó szőnyeg,régóta a "szakmában"van.
                     Sosi többszörös Országos és Magyar bajnok több súlycsoportban
                     és minden korosztályban,és veteránként is elnyerte a magyar bajnoki címet.

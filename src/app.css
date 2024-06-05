@@ -23,6 +23,10 @@ html {
     text-shadow: 0 0 5px #000;
 }
 
+.BKK-FONT{
+    font-family: 'Open Sans', 'Arial', 'Helvetica', sans-serif;
+}
+
 .GRID{
     display: grid;
     grid-template-rows: 0fr;
@@ -30,5 +34,5 @@ html {
 }
 
 .OPENED{
-    grid-template-rows: 1fr;
+    grid-template-rows: 1fr !important;
 }

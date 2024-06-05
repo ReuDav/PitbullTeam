@@ -10,7 +10,7 @@
                 <div class="w-full text-center">
                     <q class="text-slate-100 text-3xl">Ahol az igazi bajnokok és férfiak születnek</q>
                 </div>
-                <h2 class="text-slate-100 text-2xl">Cím: Soroksár, Vízisport út 33.</h2>
+                <h2 class="text-slate-100 text-2xl">Cím: Soroksár, Bolgárföld dűlő 33.</h2>
                 <div class="flex md:flex-row flex-col gap-4 justify-center">
                     <a href="#Kapcsolat" class="bg-yellow/90 p-4 md:w-40 block rounded-xl cursor-pointer" >Kapcsolat</a>
                     <a href="#Edzők" class="bg-yellow/90 p-4 md:w-40 block rounded-xl cursor-pointer" >Edzők</a>
