@@ -33,7 +33,7 @@
                             EDZŐK
                         </button>
                         <div
-                                class={`GRID bg-inherit md:absolute z-30 top-20 md:w-40 right-80 ${subOpened ? "OPENED" : "grid-rows-1"}`}>
+                                class={`GRID bg-inherit md:absolute z-30 top-20 md:w-40 md:right-[280px] ${subOpened ? "OPENED" : "grid-rows-1"}`}>
                             <div class="overflow-hidden ">
                                 <li class="flex items-center max-h-20"><a on:click={() => opened = false} class="px-2 py-4 pt-6 w-full block TEXT-OUTLINE"
                                                                           href="#Béla">Béla</a></li>
