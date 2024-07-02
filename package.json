@@ -20,6 +20,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"material-icons": "^1.13.12"
+		"material-icons": "^1.13.12",
+		"rimraf": "^5.0.7"
 	}
 }

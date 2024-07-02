@@ -29,7 +29,7 @@ html {
 
 .GRID{
     display: grid;
-    grid-template-rows: 0fr;
+    grid-template-rows: 0fr !important;
     transition: grid-template-rows 0.5s ease-in-out;
 }
 

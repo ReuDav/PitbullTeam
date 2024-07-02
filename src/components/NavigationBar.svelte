@@ -1,6 +1,6 @@
 <script>
-    import "./app.css"
-    import Logo from "./assets/PitbullLogo.svg"
+    import "../app.css"
+    import Logo from "../assets/PitbullLogo.svg"
 
     let opened = false;
     let subOpened = false;
@@ -18,14 +18,14 @@
 </script>
 
 <nav class="bg-transparent PITBULL-FONT z-20 fixed w-full flex items-center justify-between px-4 py-2 h-[100px]">
-    <a class="flex items-center gap-2.5 relative z-30" href="/" id="Logo">
+    <a class="flex items-center gap-2.5 relative z-30" href="/static" id="Logo">
         <img alt="" class="size-20" src={Logo}>
         <p class="text-yellow text-3xl h-fit leading-1 md:block hidden TEXT-OUTLINE">PITBULL TEAM</p>
     </a>
 
     <div
-            class={`GRID md:static absolute md:w-fit w-full left-0 top-0 md:top-[100px] transition-all duration-500 md:h-fit h-screen bg-inherit ${opened ? "OPENED" : "md:grid-rows-1 bg-transparent"}`}>
-        <div class="overflow-hidden flex items-center justify-center w-full transition-colors duration-500 md:bg-transparent bg-black/70">
+            class={`GRID md:static absolute md:w-fit w-full left-0 top-0 md:top-[100px] transition-all duration-500 md:h-fit bg-inherit ${opened ? "OPENED z-20" : "!grid-rows-1 bg-transparent"}`}>
+        <div class={`overflow-hidden flex items-center justify-center w-full transition-all duration-500 md:bg-transparent bg-black/70 md:h-fit ${opened ? "h-screen" : "h-0"}`}>
             <ul class="text-white flex md:flex-row items-center flex-col text-center md:gap-4 gap-8 md:text-base text-xl leading-1 w-full uppercase">
                 <li>
                     <div class="md:w-auto w-screen text-slate-100">

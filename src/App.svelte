@@ -1,9 +1,9 @@
 <script>
-  import NavigationBar from "./NavigationBar.svelte";
-  import VideoBanner from "./VideoBanner.svelte";
-  import TrainersCarousel from "./TrainersCarousel.svelte";
-  import FrequesntlyAskedQuestionsSection from "./FrequentlyAskedQuestionsSection.svelte";
-  import Contact from "./Contact.svelte";
+  import NavigationBar from "./components/NavigationBar.svelte";
+  import VideoBanner from "./components/VideoBanner.svelte";
+  import TrainersCarousel from "./components/TrainersCarousel.svelte";
+  import FrequesntlyAskedQuestionsSection from "./components/FrequentlyAskedQuestionsSection.svelte";
+  import Contact from "./components/Contact.svelte";
 </script>
 
 <main>

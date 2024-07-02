@@ -1,13 +1,13 @@
 <script>
-    import Kami1 from "./assets/Kami/Kami-1.jpg"
-    import Kami2 from "./assets/Kami/Kami-2.jpg"
-    import Kami3 from "./assets/Kami/Kami-3.jpg"
-    import Kami4 from "./assets/Kami/Kami-4.jpg"
-    import Kami5 from "./assets/Kami/Kami-5.jpg"
+    import Kami1 from "../assets/Kami/Kami-1.jpg"
+    import Kami2 from "../assets/Kami/Kami-2.jpg"
+    import Kami3 from "../assets/Kami/Kami-3.jpg"
+    import Kami4 from "../assets/Kami/Kami-4.jpg"
+    import Kami5 from "../assets/Kami/Kami-5.jpg"
 
-    import Bela from "./assets/Bela/Bela.jpg"
+    import Bela from "../assets/Bela/Bela.jpg"
 
-    import Sosi from "./assets/Sosi/Sosi.jpg"
+    import Sosi from "../assets/Sosi/Sosi.jpg"
     import TrainerColumn from "./TrainerColumn.svelte";
 
     const BelaKep = [Bela];
