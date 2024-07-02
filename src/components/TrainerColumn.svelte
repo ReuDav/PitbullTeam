@@ -34,7 +34,7 @@
             {/each}
         {/if}
         <div class="font-sans font-semibold p-2 flex flex-col gap-6">
-            <p class="md:hidden block text-lg leading-[24px]">
+            <p class="text-lg leading-[24px]">
                 {content}
             </p>
             <button class="block mx-auto rounded-xl bg-slate-800 text-slate-100 p-4 md:max-w-80 w-full">
