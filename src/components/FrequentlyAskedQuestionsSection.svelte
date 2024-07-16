@@ -31,6 +31,7 @@
     }
 </script>
 
+<section id="Gyik" class="py-10">
 {#each questions as { question, answer }, index}
     <FrequentlyAskedQuestions
             question={question}
@@ -39,3 +40,4 @@
             toggle={() => toggle(index)}
     />
 {/each}
+</section>

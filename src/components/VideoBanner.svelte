@@ -1,6 +1,6 @@
 <script>
     import "../app.css"
-    import Video from "../assets/MenniElore.mp4"
+    import Video from "../assets/MenniElore.webm"
 </script>
 <div class="relative max-h-screen">
     <div class="absolute inset-0 h-full backdrop-blur-md z-10">

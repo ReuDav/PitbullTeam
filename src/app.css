@@ -19,20 +19,33 @@ html {
     font-family: "PitBull", sans-serif;
 }
 
-.TEXT-OUTLINE{
+.TEXT-OUTLINE {
     text-shadow: 0 0 5px #000;
 }
 
-.BKK-FONT{
+.BKK-FONT {
     font-family: 'Open Sans', 'Arial', 'Helvetica', sans-serif;
 }
 
-.GRID{
+.GRID {
     display: grid;
     grid-template-rows: 0fr !important;
     transition: grid-template-rows 0.5s ease-in-out;
 }
 
-.OPENED{
+.OPENED {
     grid-template-rows: 1fr !important;
+}
+
+.sc-carousel-dots__container {
+    padding: 20px !important;
+    width: 100%;
+    justify-content: space-evenly !important;
+}
+
+.sc-carousel-button.sc-carousel-dot__dot {
+    min-width: 44px;
+    max-width: 44px;
+    min-height: 44px;
+    max-height: 44px;
 }

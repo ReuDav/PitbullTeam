@@ -1,6 +1,7 @@
 <script>
     import Carousel from "svelte-carousel"
     export let name = '';
+    export let id = '';
     export let image = [];
     export let content = '';
     export let phone = '';
@@ -11,7 +12,7 @@
     }
 </script>
 
-<div class="lg:w-1/3 mt-8 bg-yellow text-slate-800 rounded-xl max-h-fit h-fit" id={name}>
+<div class="lg:w-1/3 mt-8 bg-yellow text-slate-800 rounded-xl max-h-fit h-fit" id={id}>
     <div class="flex flex-col">
         <div class="text-center p-4">
             <h3 class="text-2xl leading-1">{name}</h3>
@@ -37,7 +38,7 @@
             <p class="text-lg leading-[24px]">
                 {content}
             </p>
-            <button class="block mx-auto rounded-xl bg-slate-800 text-slate-100 p-4 md:max-w-80 w-full">
+            <button title="Telefonálj a Pitbull Team-nek!" type="button" class="block mx-auto rounded-xl bg-slate-800 text-slate-100 p-4 md:max-w-80 w-full">
                 <a href={`tel:${phone}`}>{formatPhoneNumber(phone)}</a>
             </button>
             <small class="text-base leading-[24px] text-center">

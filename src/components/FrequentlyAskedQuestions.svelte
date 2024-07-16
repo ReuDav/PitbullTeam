@@ -12,11 +12,11 @@
     }
 </script>
 
-<button type="button" on:click={handleClick} class="md:w-3/4 w-full p-2 my-2 block mx-auto PITBULL-FONT">
+<button title="Kattints ide a válasz megtekintéséért!" type="button" on:click={handleClick} class="md:w-3/4 w-full p-2 my-2 block mx-auto PITBULL-FONT">
     <div class="text-left flex items-center justify-between p-4 border-b-2 border-yellow">
         <div>{question}</div>
-        <div class={`transition-transform duration-500 rotate-45 ${isOpen ? "OPENED rotate-0" : ""}`}>
-            <span class="material-icons-outlined">close</span>
+        <div>
+            <span class={`material-icons-outlined transition-transform duration-500 ${isOpen ? "OPENED " : "rotate-45"}`}>close</span>
         </div>
     </div>
     <div class={`GRID ${isOpen ? "OPENED" : ""}`}>
