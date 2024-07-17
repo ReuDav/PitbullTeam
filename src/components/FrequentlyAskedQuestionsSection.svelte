@@ -9,9 +9,9 @@
             answer: `
                 Küzdősportok, ökölvívás, k-1, kempo, mma, elsajátítása, és versenyzési lehetőség.
                 <div>
-                    <img src='./src/assets/assets/verseny1.webp' alt='Verseny 1' />
-                    <img src='./src/assets/assets/verseny2.webp' alt='Verseny 2' />
-                    <img src='./src/assets/assets/verseny3.webp' alt='Verseny 3' />
+                    <img src='src/assets/assets/verseny1.webp' alt='Verseny 1' />
+                    <img src='src/assets/assets/verseny2.webp' alt='Verseny 2' />
+                    <img src='src/assets/assets/verseny3.webp' alt='Verseny 3' />
                 </div>`
         },
         {
