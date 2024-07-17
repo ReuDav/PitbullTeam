@@ -1,5 +1,8 @@
 <script>
     import FrequentlyAskedQuestions from './FrequentlyAskedQuestions.svelte';
+    import verseny1 from "./../assets/assets/verseny1.webp";
+    import verseny2 from "./../assets/assets/verseny2.webp";
+    import verseny3 from "./../assets/assets/verseny3.webp";
 
     let openIndex = null;
 
@@ -9,9 +12,9 @@
             answer: `
                 Küzdősportok, ökölvívás, k-1, kempo, mma, elsajátítása, és versenyzési lehetőség.
                 <div>
-                    <img src='src/assets/assets/verseny1.webp' alt='Verseny 1' />
-                    <img src='src/assets/assets/verseny2.webp' alt='Verseny 2' />
-                    <img src='src/assets/assets/verseny3.webp' alt='Verseny 3' />
+                   <img src="${verseny1}" alt='Verseny 1' />
+                    <img src="${verseny2}" alt='Verseny 2' />
+                    <img src="${verseny3}" alt='Verseny 3' />
                 </div>`
         },
         {
@@ -38,12 +41,12 @@
 </script>
 
 <section id="Gyik" class="py-10">
-{#each questions as { question, answer }, index}
-    <FrequentlyAskedQuestions
-            question={question}
-            answer={answer}
-            isOpen={openIndex === index}
-            toggle={() => toggle(index)}
-    />
-{/each}
+    {#each questions as {question, answer}, index}
+        <FrequentlyAskedQuestions
+                question={question}
+                answer={answer}
+                isOpen={openIndex === index}
+                toggle={() => toggle(index)}
+        />
+    {/each}
 </section>
