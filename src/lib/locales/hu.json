@@ -1,0 +1,21 @@
+{
+  "navbar": {
+    "home": "Főoldal",
+    "trainers": "Edzők",
+    "gallery": "Galéria",
+    "contact": "Kapcsolat"
+  },
+  "links": {
+    "homepage": "",
+    "trainers": "edzok",
+    "gallery": "galeria",
+    "contact": "kapcsolat"
+  },
+    "hero": {
+    "title": "Pitbull Team Soroksár",
+    "subtitle": "K1, K3 és Birkózás edzések Budapest 23. kerületében!",
+    "text": "Megtanítunk megvédeni magad, önuralmat gyakorolni és legyőzni a saját határaidat. Kezdj el keményen edzeni velünk, és hozd ki magadból a maximumot!",
+    "cta_train": "Edzeni akarok!",
+    "cta_trainers": "Edzőink"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "navbar": {
+    "home": "Home",
+    "trainers": "Trainers",
+    "gallery": "Gallery",
+    "contact": "Contact"
+  },
+  "links": {
+    "homepage": "",
+    "trainers": "trainers",
+    "gallery": "gallery",
+    "contact": "contact"
+  },
+   "hero": {
+    "title": "Pitbull Team Soroksár",
+    "subtitle": "K1, K3 and Wrestling training in Budapest’s 23rd district!",
+    "text": "We teach you how to defend yourself, control your mind, and push past your limits. Train hard with us and unleash your full potential!",
+    "cta_train": "I want to train!",
+    "cta_trainers": "Our Trainers"
+  }
+}
